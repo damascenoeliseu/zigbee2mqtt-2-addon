@@ -7,6 +7,7 @@
   "boot": "auto",
   "ingress": true,
   "panel_icon": "mdi:zigbee",
+  "image": "ghcr.io/koenkk/zigbee2mqtt",
   "ports": {
     "8486/tcp": 8486
   },
