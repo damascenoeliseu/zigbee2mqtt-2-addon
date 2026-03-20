@@ -13,6 +13,7 @@
   "ports_description": {
     "8486/tcp": "Zigbee2MQTT frontend (segunda instância)"
   },
+  "privileged": ["SYS_ADMIN"],
   "devices": ["/dev/serial/by-id"],
   "environment": {
   "ZIGBEE2MQTT_DATA": "/config/zigbee2mqtt_2"
