@@ -8,10 +8,10 @@
   "ingress": true,
   "panel_icon": "mdi:zigbee",
   "ports": {
-    "8485/tcp": 8485
+    "8486/tcp": 8486
   },
   "ports_description": {
-    "8485/tcp": "Zigbee2MQTT frontend (segunda instância)"
+    "8486/tcp": "Zigbee2MQTT frontend (segunda instância)"
   },
   "map": [
     "config:rw",
@@ -29,5 +29,5 @@
       "enabled": "bool"
     }
   },
-  "arch": ["aarch64", "amd64", "armv7", "armhf", "i386"]
+  "arch": ["aarch64", "amd64", "armv7"]
 }
